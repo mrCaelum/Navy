@@ -163,4 +163,4 @@ waiting for enemy's attack...
 
 ## Ncurses bonus
 
-![Ncurses bonus]()
+![Ncurses bonus](https://github.com/mrCaelum/Navy/blob/master/bonus.png)
