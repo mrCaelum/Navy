@@ -4,9 +4,14 @@
 ##### Purpose of the project :
 - [x] Create a battleship game in CLI with signals
 
+## Build
+```
+$ make
+```
+
 ## Usage
 ```
-$> ./navy -h
+$ ./navy -h
 USAGE
 	./navy [first_player_pid] navy_positions
 DESCRIPTION
@@ -17,12 +22,12 @@ DESCRIPTION
 ## Positions files exemples
 
 ```
-$> cat navy_positions1.txt
+$ cat navy_positions1.txt
 2:E5:F5
 3:A2:C2
 4:C5:C8
 5:H1:H5
-$> cat navy_positions2.txt
+$ cat navy_positions2.txt
 2:G7:G8
 3:F3:H3
 4:A8:D8
@@ -33,7 +38,7 @@ $> cat navy_positions2.txt
 
 ### Player 1
 ```
-$> ./navy navy_positions1.txt
+$ ./navy navy_positions1.txt
 my_pid: 12345
 waiting for enemy connection...
 
@@ -99,7 +104,7 @@ attack:
 
 ### PLayer 2
 ```
-$> ./navy 12345 navy_positions2.txt
+$ ./navy 12345 navy_positions2.txt
 my_pid: 23456
 successfully connected
 
