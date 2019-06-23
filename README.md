@@ -102,7 +102,7 @@ attack:
 
 ```
 
-### PLayer 2
+### Player 2
 ```
 $ ./navy 12345 navy_positions2.txt
 my_pid: 23456
