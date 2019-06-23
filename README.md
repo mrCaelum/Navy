@@ -19,7 +19,7 @@ DESCRIPTION
 	navy_positions: file representing the positions of the ships.
 ```
 
-## Positions files exemples
+## Positions files examples
 
 ```
 $ cat navy_positions1.txt
@@ -34,7 +34,7 @@ $ cat navy_positions2.txt
 5:C1:C5
 ```
 
-## Game exemple
+## Game example
 
 ### Player 1
 ```
